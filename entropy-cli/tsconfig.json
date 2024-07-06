@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "noEmit": true,
+    "target": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "node_modules/@types",
+      "@types/",
+      "@entropyxyz/sdk",
+      "@entropyxyz/sdk/keys"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "ts-node": {
+    "swc": true,
+    "experimentalSpecifierResolution": "node",
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}
