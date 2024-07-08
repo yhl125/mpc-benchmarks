@@ -1,0 +1,10 @@
+service : {
+  public_key: () -> (variant {
+                       Err: text;
+                       Ok: record {public_key_hex: text;};
+                     });
+  sign: (text) -> (variant {
+                     Err: text;
+                     Ok: record {signature_hex: text;};
+                   });
+}

@@ -1,0 +1,8 @@
+{
+  "canisters": {
+    "ecdsa_example_motoko1": {
+      "type": "motoko",
+      "main": "src/ecdsa_example_motoko/main.mo"
+    }
+  }
+}
