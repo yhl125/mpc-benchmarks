@@ -5,7 +5,8 @@
 |entropy|0.51 ± 6.38% (7 runs sampled)||
 |lit|0.914 ±18.59% (10 runs sampled)||
 |near|0.10 ±11.70% (5 runs sampled)||
-|passport|1.24 ±7.78% (11 runs sampled)||
+|passport testnet|1.27 ±6.64% (11 runs sampled)||
+|passport mainnet|1.49 ±5.77% (12 runs sampled)||
 |dwallet|0.04 ±2.42% (5 runs sampled)||
 |icp|0.08 ±5.02% (5 runs sampled)|
 
@@ -30,7 +31,15 @@ yarn test:near
 ```
 
 # passport
+## testnet
 https://github.com/yhl125/passport-quickstart/tree/benchmark
+```
+pnpm install
+pnpm run build
+pnpm run start
+```
+## mainnet
+https://github.com/yhl125/passport-quickstart/tree/benchmark-mainnet
 ```
 pnpm install
 pnpm run build
